@@ -5,8 +5,8 @@ require_relative "./production"
 
 Rails.application.configure do
   config.action_mailer.default_url_options = {
-    host: "staging.macherit.me/buho",
+    host: "staging.macherit.me/railstemplate",
     protocol: "https"
   }
-  config.action_mailer.asset_host = "https://staging.macherit.me/buho"
+  config.action_mailer.asset_host = "https://staging.macherit.me/railstemplate"
 end
