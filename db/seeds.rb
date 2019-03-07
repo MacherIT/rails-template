@@ -9,4 +9,4 @@
 logger = Logger.new(STDOUT)
 
 logger.info "Usuario"
-User.create(email: "hola@macherit.com", password: "123456")
+User.create(email: "hola@macherit.com", password: "1234567")
